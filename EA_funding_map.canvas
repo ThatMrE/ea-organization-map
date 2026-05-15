@@ -1,0 +1,1822 @@
+{
+  "nodes": [
+    {
+      "id": "op",
+      "type": "text",
+      "text": "**Open Philanthropy\n(Moskovitz / Tuna)**",
+      "x": -800,
+      "y": 0,
+      "width": 280,
+      "height": 90,
+      "color": "6"
+    },
+    {
+      "id": "sff",
+      "type": "text",
+      "text": "**SFF\n(Tallinn-backed)**",
+      "x": -800,
+      "y": 110,
+      "width": 280,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "ltff",
+      "type": "text",
+      "text": "**EA Funds: LTFF**",
+      "x": -800,
+      "y": 220,
+      "width": 280,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "eaif",
+      "type": "text",
+      "text": "**EA Funds: EAIF**",
+      "x": -800,
+      "y": 330,
+      "width": 280,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "awf",
+      "type": "text",
+      "text": "**EA Funds: Animal Welfare**",
+      "x": -800,
+      "y": 440,
+      "width": 280,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "ghdf",
+      "type": "text",
+      "text": "**EA Funds: Global Health**",
+      "x": -800,
+      "y": 550,
+      "width": 280,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "ftx",
+      "type": "text",
+      "text": "**FTX Future Fund\n(defunct 2022)**",
+      "x": -800,
+      "y": 660,
+      "width": 280,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "longview",
+      "type": "text",
+      "text": "**Longview Philanthropy**",
+      "x": -800,
+      "y": 770,
+      "width": 280,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "givewell",
+      "type": "text",
+      "text": "**GiveWell**",
+      "x": -800,
+      "y": 880,
+      "width": 280,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "fp",
+      "type": "text",
+      "text": "**Founders Pledge**",
+      "x": -800,
+      "y": 990,
+      "width": 280,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "ev",
+      "type": "text",
+      "text": "**Effective Ventures\n(fiscal sponsor)**",
+      "x": -800,
+      "y": 1100,
+      "width": 280,
+      "height": 90,
+      "color": "3"
+    },
+    {
+      "id": "tallinn",
+      "type": "text",
+      "text": "**Jaan Tallinn\n(personal)**",
+      "x": -800,
+      "y": 1210,
+      "width": 280,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "buterin",
+      "type": "text",
+      "text": "**Vitalik Buterin**",
+      "x": -800,
+      "y": 1320,
+      "width": 280,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "macro",
+      "type": "text",
+      "text": "**Macroscopic Ventures**",
+      "x": -800,
+      "y": 1430,
+      "width": 280,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "astera",
+      "type": "text",
+      "text": "**Astera Institute\n(McCaleb)**",
+      "x": -800,
+      "y": 1540,
+      "width": 280,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "schmidt",
+      "type": "text",
+      "text": "**Schmidt Futures\n(adjacent)**",
+      "x": -800,
+      "y": 1650,
+      "width": 280,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "aim",
+      "type": "text",
+      "text": "**Charity Entrepreneurship / AIM**",
+      "x": -800,
+      "y": 1760,
+      "width": 280,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "group_ai_safety",
+      "type": "group",
+      "label": "AI Safety & Alignment",
+      "x": -300,
+      "y": -200,
+      "width": 820,
+      "height": 690,
+      "color": "6"
+    },
+    {
+      "id": "miri",
+      "type": "text",
+      "text": "MIRI",
+      "x": -270,
+      "y": -140,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "redwood",
+      "type": "text",
+      "text": "Redwood Research",
+      "x": -10,
+      "y": -140,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "arc",
+      "type": "text",
+      "text": "ARC\n(Alignment Research Center)",
+      "x": 250,
+      "y": -140,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "metr",
+      "type": "text",
+      "text": "METR\n(ARC Evals spinout)",
+      "x": -270,
+      "y": -40,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "anthropic",
+      "type": "text",
+      "text": "Anthropic\n(for-profit lab)",
+      "x": -10,
+      "y": -40,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "apollo",
+      "type": "text",
+      "text": "Apollo Research",
+      "x": 250,
+      "y": -40,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "farai",
+      "type": "text",
+      "text": "FAR AI",
+      "x": -270,
+      "y": 60,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "chai",
+      "type": "text",
+      "text": "CHAI\n(UC Berkeley)",
+      "x": -10,
+      "y": 60,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "cais",
+      "type": "text",
+      "text": "Center for AI Safety\n(CAIS)",
+      "x": 250,
+      "y": 60,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "conjecture",
+      "type": "text",
+      "text": "Conjecture",
+      "x": -270,
+      "y": 160,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "aiimpacts",
+      "type": "text",
+      "text": "AI Impacts",
+      "x": -10,
+      "y": 160,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "coop",
+      "type": "text",
+      "text": "Cooperative AI Foundation",
+      "x": 250,
+      "y": 160,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "aiscamp",
+      "type": "text",
+      "text": "AI Safety Camp",
+      "x": -270,
+      "y": 260,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "mats",
+      "type": "text",
+      "text": "MATS Program",
+      "x": -10,
+      "y": 260,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "bluedot",
+      "type": "text",
+      "text": "BlueDot Impact",
+      "x": 250,
+      "y": 260,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "constellation",
+      "type": "text",
+      "text": "Constellation",
+      "x": -270,
+      "y": 360,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "lightcone",
+      "type": "text",
+      "text": "Lightcone Infrastructure\n(LessWrong, LightHaven)",
+      "x": -10,
+      "y": 360,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "govai",
+      "type": "text",
+      "text": "GovAI",
+      "x": 250,
+      "y": 360,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "group_biosecurity",
+      "type": "group",
+      "label": "Biosecurity & Pandemic Prevention",
+      "x": 1100,
+      "y": -200,
+      "width": 560,
+      "height": 490,
+      "color": "4"
+    },
+    {
+      "id": "nti",
+      "type": "text",
+      "text": "NTI Bio Program",
+      "x": 1130,
+      "y": -140,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "jhuchs",
+      "type": "text",
+      "text": "Johns Hopkins\nCenter for Health Security",
+      "x": 1390,
+      "y": -140,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "securebio",
+      "type": "text",
+      "text": "SecureBio\n(Kevin Esvelt)",
+      "x": 1130,
+      "y": -40,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "blueprint",
+      "type": "text",
+      "text": "Blueprint Biosecurity",
+      "x": 1390,
+      "y": -40,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "csr",
+      "type": "text",
+      "text": "Council on Strategic Risks",
+      "x": 1130,
+      "y": 60,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "sentinel",
+      "type": "text",
+      "text": "Sentinel Bio",
+      "x": 1390,
+      "y": 60,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "oneday",
+      "type": "text",
+      "text": "1Day Sooner",
+      "x": 1130,
+      "y": 160,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "helena",
+      "type": "text",
+      "text": "Helena Biosciences",
+      "x": 1390,
+      "y": 160,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "group_global_health",
+      "type": "group",
+      "label": "Global Health & Development",
+      "x": 1100,
+      "y": 700,
+      "width": 560,
+      "height": 490,
+      "color": "5"
+    },
+    {
+      "id": "amf",
+      "type": "text",
+      "text": "Against Malaria Foundation",
+      "x": 1130,
+      "y": 760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "mc",
+      "type": "text",
+      "text": "Malaria Consortium\n(SMC)",
+      "x": 1390,
+      "y": 760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "hki",
+      "type": "text",
+      "text": "Helen Keller International",
+      "x": 1130,
+      "y": 860,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "newinc",
+      "type": "text",
+      "text": "New Incentives",
+      "x": 1390,
+      "y": 860,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "evaction",
+      "type": "text",
+      "text": "Evidence Action",
+      "x": 1130,
+      "y": 960,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "givedir",
+      "type": "text",
+      "text": "GiveDirectly",
+      "x": 1390,
+      "y": 960,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "fem",
+      "type": "text",
+      "text": "Family Empowerment Media",
+      "x": 1130,
+      "y": 1060,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "idi",
+      "type": "text",
+      "text": "IDinsight",
+      "x": 1390,
+      "y": 1060,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "group_animal_welfare",
+      "type": "group",
+      "label": "Animal Welfare",
+      "x": 1100,
+      "y": 1500,
+      "width": 560,
+      "height": 590,
+      "color": "3"
+    },
+    {
+      "id": "thl",
+      "type": "text",
+      "text": "The Humane League",
+      "x": 1130,
+      "y": 1560,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "mfa",
+      "type": "text",
+      "text": "Mercy For Animals",
+      "x": 1390,
+      "y": 1560,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "gfi",
+      "type": "text",
+      "text": "Good Food Institute",
+      "x": 1130,
+      "y": 1660,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "wai",
+      "type": "text",
+      "text": "Wild Animal Initiative",
+      "x": 1390,
+      "y": 1660,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "ace",
+      "type": "text",
+      "text": "Animal Charity Evaluators",
+      "x": 1130,
+      "y": 1760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "ciwf",
+      "type": "text",
+      "text": "Compassion in World Farming",
+      "x": 1390,
+      "y": 1760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "fwi",
+      "type": "text",
+      "text": "Fish Welfare Initiative",
+      "x": 1130,
+      "y": 1860,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "sinergia",
+      "type": "text",
+      "text": "Sinergia Animal",
+      "x": 1390,
+      "y": 1860,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "faun",
+      "type": "text",
+      "text": "Faunalytics",
+      "x": 1130,
+      "y": 1960,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "proveg",
+      "type": "text",
+      "text": "ProVeg International",
+      "x": 1390,
+      "y": 1960,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "group_meta",
+      "type": "group",
+      "label": "Movement Building & Meta",
+      "x": -300,
+      "y": 1500,
+      "width": 560,
+      "height": 690,
+      "color": "2"
+    },
+    {
+      "id": "cea",
+      "type": "text",
+      "text": "Centre for Effective Altruism",
+      "x": -270,
+      "y": 1560,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "80k",
+      "type": "text",
+      "text": "80,000 Hours",
+      "x": -10,
+      "y": 1560,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "gwwc",
+      "type": "text",
+      "text": "Giving What We Can",
+      "x": -270,
+      "y": 1660,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "rp",
+      "type": "text",
+      "text": "Rethink Priorities",
+      "x": -10,
+      "y": 1660,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "gpi",
+      "type": "text",
+      "text": "GPI\n(Oxford)",
+      "x": -270,
+      "y": 1760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "hli",
+      "type": "text",
+      "text": "Happier Lives Institute",
+      "x": -10,
+      "y": 1760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "probably",
+      "type": "text",
+      "text": "Probably Good",
+      "x": -270,
+      "y": 1860,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "ce",
+      "type": "text",
+      "text": "Charity Entrepreneurship",
+      "x": -10,
+      "y": 1860,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "forethought",
+      "type": "text",
+      "text": "Forethought Foundation/Research",
+      "x": -270,
+      "y": 1960,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "flI",
+      "type": "text",
+      "text": "Future of Life Institute",
+      "x": -10,
+      "y": 1960,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "allfed",
+      "type": "text",
+      "text": "ALLFED",
+      "x": -270,
+      "y": 2060,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "group_policy",
+      "type": "group",
+      "label": "Policy & Governance",
+      "x": 500,
+      "y": 1500,
+      "width": 560,
+      "height": 490,
+      "color": "1"
+    },
+    {
+      "id": "cset",
+      "type": "text",
+      "text": "CSET\n(Georgetown)",
+      "x": 530,
+      "y": 1560,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "cltr",
+      "type": "text",
+      "text": "CLTR\n(UK)",
+      "x": 790,
+      "y": 1560,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "cser",
+      "type": "text",
+      "text": "CSER\n(Cambridge)",
+      "x": 530,
+      "y": 1660,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "iaps",
+      "type": "text",
+      "text": "IAPS",
+      "x": 790,
+      "y": 1660,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "caip",
+      "type": "text",
+      "text": "Center for AI Policy",
+      "x": 530,
+      "y": 1760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "horizon",
+      "type": "text",
+      "text": "Horizon Institute\nfor Public Service",
+      "x": 790,
+      "y": 1760,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "simon",
+      "type": "text",
+      "text": "Simon Institute\nLongterm Gov",
+      "x": 530,
+      "y": 1860,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "group_historical",
+      "type": "group",
+      "label": "Closed / Historical",
+      "x": -300,
+      "y": 2400,
+      "width": 300,
+      "height": 290,
+      "color": "#888888"
+    },
+    {
+      "id": "fhi",
+      "type": "text",
+      "text": "FHI Oxford\n(CLOSED Apr 2024)",
+      "x": -270,
+      "y": 2460,
+      "width": 240,
+      "height": 70
+    },
+    {
+      "id": "ought",
+      "type": "text",
+      "text": "Ought\n(pivoted)",
+      "x": -270,
+      "y": 2560,
+      "width": 240,
+      "height": 70
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "miri",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e2",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "redwood",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e3",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "arc",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e4",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "metr",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e5",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "anthropic",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e6",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "apollo",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e7",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "farai",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e8",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "chai",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e9",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "cais",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e10",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "mats",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e11",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "bluedot",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e12",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "constellation",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e13",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "lightcone",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e14",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "govai",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e15",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "flI",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e16",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "nti",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e17",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "jhuchs",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e18",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "securebio",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e19",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "blueprint",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e20",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "csr",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e21",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "oneday",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e22",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "evaction",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e23",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "hki",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e24",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "newinc",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e25",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "fem",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e26",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "idi",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e27",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "thl",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e28",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "mfa",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e29",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "gfi",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e30",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "wai",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e31",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "ace",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e32",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "ciwf",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e33",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "cea",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e34",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "80k",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e35",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "gwwc",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e36",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "rp",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e37",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "gpi",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e38",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "cset",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e39",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "cltr",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e40",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "cser",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e41",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "iaps",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e42",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "horizon",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e43",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "ce",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e44",
+      "fromNode": "op",
+      "fromSide": "right",
+      "toNode": "fhi",
+      "toSide": "left",
+      "color": "6"
+    },
+    {
+      "id": "e45",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "miri",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e46",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "lightcone",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e47",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "farai",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e48",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "apollo",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e49",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "aiimpacts",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e50",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "conjecture",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e51",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "aiscamp",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e52",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "mats",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e53",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "arc",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e54",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "chai",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e55",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "coop",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e56",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "bluedot",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e57",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "flI",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e58",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "govai",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e59",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "caip",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e60",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "simon",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e61",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "forethought",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e62",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "rp",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e63",
+      "fromNode": "sff",
+      "fromSide": "right",
+      "toNode": "allfed",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e64",
+      "fromNode": "tallinn",
+      "fromSide": "right",
+      "toNode": "miri",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e65",
+      "fromNode": "tallinn",
+      "fromSide": "right",
+      "toNode": "lightcone",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e66",
+      "fromNode": "tallinn",
+      "fromSide": "right",
+      "toNode": "flI",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e67",
+      "fromNode": "ltff",
+      "fromSide": "right",
+      "toNode": "miri",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e68",
+      "fromNode": "ltff",
+      "fromSide": "right",
+      "toNode": "apollo",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e69",
+      "fromNode": "ltff",
+      "fromSide": "right",
+      "toNode": "mats",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e70",
+      "fromNode": "ltff",
+      "fromSide": "right",
+      "toNode": "aiscamp",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e71",
+      "fromNode": "ltff",
+      "fromSide": "right",
+      "toNode": "aiimpacts",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e72",
+      "fromNode": "ltff",
+      "fromSide": "right",
+      "toNode": "caip",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e73",
+      "fromNode": "eaif",
+      "fromSide": "right",
+      "toNode": "cea",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e74",
+      "fromNode": "eaif",
+      "fromSide": "right",
+      "toNode": "80k",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e75",
+      "fromNode": "eaif",
+      "fromSide": "right",
+      "toNode": "probably",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e76",
+      "fromNode": "eaif",
+      "fromSide": "right",
+      "toNode": "gwwc",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e77",
+      "fromNode": "awf",
+      "fromSide": "right",
+      "toNode": "thl",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e78",
+      "fromNode": "awf",
+      "fromSide": "right",
+      "toNode": "mfa",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e79",
+      "fromNode": "awf",
+      "fromSide": "right",
+      "toNode": "wai",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e80",
+      "fromNode": "awf",
+      "fromSide": "right",
+      "toNode": "sinergia",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e81",
+      "fromNode": "awf",
+      "fromSide": "right",
+      "toNode": "fwi",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e82",
+      "fromNode": "awf",
+      "fromSide": "right",
+      "toNode": "faun",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e83",
+      "fromNode": "awf",
+      "fromSide": "right",
+      "toNode": "proveg",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e84",
+      "fromNode": "ghdf",
+      "fromSide": "right",
+      "toNode": "newinc",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e85",
+      "fromNode": "ghdf",
+      "fromSide": "right",
+      "toNode": "fem",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "e86",
+      "fromNode": "ftx",
+      "fromSide": "right",
+      "toNode": "anthropic",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e87",
+      "fromNode": "ftx",
+      "fromSide": "right",
+      "toNode": "lightcone",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e88",
+      "fromNode": "ftx",
+      "fromSide": "right",
+      "toNode": "arc",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e89",
+      "fromNode": "ftx",
+      "fromSide": "right",
+      "toNode": "allfed",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e90",
+      "fromNode": "ftx",
+      "fromSide": "right",
+      "toNode": "flI",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e91",
+      "fromNode": "ftx",
+      "fromSide": "right",
+      "toNode": "helena",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e92",
+      "fromNode": "ftx",
+      "fromSide": "right",
+      "toNode": "securebio",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "e93",
+      "fromNode": "longview",
+      "fromSide": "right",
+      "toNode": "securebio",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e94",
+      "fromNode": "longview",
+      "fromSide": "right",
+      "toNode": "nti",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e95",
+      "fromNode": "longview",
+      "fromSide": "right",
+      "toNode": "cltr",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e96",
+      "fromNode": "longview",
+      "fromSide": "right",
+      "toNode": "govai",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e97",
+      "fromNode": "longview",
+      "fromSide": "right",
+      "toNode": "bluedot",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e98",
+      "fromNode": "longview",
+      "fromSide": "right",
+      "toNode": "csr",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e99",
+      "fromNode": "givewell",
+      "fromSide": "right",
+      "toNode": "amf",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e100",
+      "fromNode": "givewell",
+      "fromSide": "right",
+      "toNode": "mc",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e101",
+      "fromNode": "givewell",
+      "fromSide": "right",
+      "toNode": "hki",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e102",
+      "fromNode": "givewell",
+      "fromSide": "right",
+      "toNode": "newinc",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e103",
+      "fromNode": "givewell",
+      "fromSide": "right",
+      "toNode": "evaction",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e104",
+      "fromNode": "givewell",
+      "fromSide": "right",
+      "toNode": "givedir",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e105",
+      "fromNode": "givewell",
+      "fromSide": "right",
+      "toNode": "idi",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e106",
+      "fromNode": "fp",
+      "fromSide": "right",
+      "toNode": "givedir",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e107",
+      "fromNode": "fp",
+      "fromSide": "right",
+      "toNode": "amf",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e108",
+      "fromNode": "fp",
+      "fromSide": "right",
+      "toNode": "ce",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e109",
+      "fromNode": "fp",
+      "fromSide": "right",
+      "toNode": "forethought",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e110",
+      "fromNode": "ev",
+      "fromSide": "right",
+      "toNode": "cea",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e111",
+      "fromNode": "ev",
+      "fromSide": "right",
+      "toNode": "80k",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e112",
+      "fromNode": "ev",
+      "fromSide": "right",
+      "toNode": "gwwc",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e113",
+      "fromNode": "ev",
+      "fromSide": "right",
+      "toNode": "govai",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e114",
+      "fromNode": "ev",
+      "fromSide": "right",
+      "toNode": "bluedot",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e115",
+      "fromNode": "ev",
+      "fromSide": "right",
+      "toNode": "forethought",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "e116",
+      "fromNode": "schmidt",
+      "fromSide": "right",
+      "toNode": "cset",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e117",
+      "fromNode": "schmidt",
+      "fromSide": "right",
+      "toNode": "rp",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e118",
+      "fromNode": "macro",
+      "fromSide": "right",
+      "toNode": "mats",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e119",
+      "fromNode": "macro",
+      "fromSide": "right",
+      "toNode": "apollo",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e120",
+      "fromNode": "macro",
+      "fromSide": "right",
+      "toNode": "securebio",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e121",
+      "fromNode": "buterin",
+      "fromSide": "right",
+      "toNode": "flI",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e122",
+      "fromNode": "buterin",
+      "fromSide": "right",
+      "toNode": "sentinel",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e123",
+      "fromNode": "aim",
+      "fromSide": "right",
+      "toNode": "fem",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e124",
+      "fromNode": "aim",
+      "fromSide": "right",
+      "toNode": "fwi",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e125",
+      "fromNode": "aim",
+      "fromSide": "right",
+      "toNode": "sinergia",
+      "toSide": "left",
+      "color": "4"
+    }
+  ]
+}

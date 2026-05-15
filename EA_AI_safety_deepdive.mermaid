@@ -1,0 +1,167 @@
+%% AI Safety / Alignment Deep Dive
+%% Funders, recipient orgs, founders, and org genealogy (spinouts).
+%% Knowledge cutoff: May 2025. Render at https://mermaid.live.
+%% Edge styles: solid arrow = primary funding; dashed = secondary funding;
+%% dotted = spinout/genealogy; thick = founder relationship.
+
+graph TB
+    %% ========= FUNDERS =========
+    subgraph FUNDERS [Funders]
+        OP["Open Philanthropy<br/>(Moskovitz / Tuna)"]:::funder
+        SFF["SFF<br/>(Tallinn-backed)"]:::funder
+        LTFF["EA Funds: LTFF"]:::funder
+        FTX["FTX Future Fund<br/>(defunct 2022)"]:::defunct
+        LV["Longview Philanthropy"]:::funder
+        MACRO["Macroscopic Ventures"]:::funder
+        SCHMIDT["Schmidt Futures<br/>(adjacent)"]:::adjacent
+        TALLINN["Jaan Tallinn<br/>(personal)"]:::funder
+        BUTERIN["Vitalik Buterin"]:::funder
+    end
+
+    %% ========= TECHNICAL ALIGNMENT RESEARCH =========
+    subgraph TECH [Technical Alignment Research]
+        MIRI["MIRI<br/>Yudkowsky / Soares<br/>2000"]:::org
+        REDWOOD["Redwood Research<br/>Buck Shlegeris<br/>2021"]:::org
+        ARC["ARC<br/>Paul Christiano<br/>2021"]:::org
+        METR["METR<br/>Beth Barnes<br/>2023 (ex-ARC Evals)"]:::org
+        APOLLO["Apollo Research<br/>Marius Hobbhahn<br/>2023 (London)"]:::org
+        FARAI["FAR AI<br/>Adam Gleave<br/>2022"]:::org
+        CHAI["CHAI - UC Berkeley<br/>Stuart Russell<br/>2016"]:::academic
+        CONJECTURE["Conjecture<br/>Connor Leahy<br/>2022"]:::org
+        OUGHT["Ought<br/>Andreas Stuhlmuller<br/>2017 (pivoted)"]:::historical
+        ENCULTURED["Encultured AI<br/>Critch<br/>2022"]:::org
+    end
+
+    %% ========= EVAL / FIELD-BUILDING =========
+    subgraph FIELD [Field-Building, Evals, Talent]
+        MATS["MATS Program<br/>Berkeley fellowship<br/>2022"]:::org
+        BLUEDOT["BlueDot Impact<br/>AISF curriculum<br/>2022"]:::org
+        CONST["Constellation<br/>Berkeley research hub<br/>2022"]:::org
+        AISAFETYCAMP["AI Safety Camp<br/>founded 2018"]:::org
+        SERIMATS["SERI MATS<br/>Stanford predecessor"]:::historical
+        LIGHTCONE["Lightcone Infrastructure<br/>Habryka<br/>LessWrong + LightHaven"]:::org
+        AIIMPACTS["AI Impacts<br/>Katja Grace"]:::org
+    end
+
+    %% ========= GOVERNANCE / POLICY =========
+    subgraph GOV [Governance & Policy]
+        GOVAI["GovAI<br/>Allan Dafoe<br/>2020 (now EV-hosted)"]:::org
+        CSET["CSET - Georgetown<br/>Jason Matheny<br/>2019"]:::academic
+        CLTR["CLTR<br/>Angela Kane<br/>UK 2020"]:::org
+        IAPS["IAPS<br/>Onni Aarne / Erich Grunewald<br/>2023"]:::org
+        CAIP["Center for AI Policy<br/>2023"]:::org
+        HORIZON["Horizon Institute for Public Service<br/>2022"]:::org
+        FLI["Future of Life Institute<br/>Max Tegmark / Jaan Tallinn<br/>2014"]:::org
+        SIMON["Simon Institute Longterm Gov<br/>Geneva"]:::org
+        CAIS["Center for AI Safety<br/>Dan Hendrycks<br/>2022"]:::org
+        COOP["Cooperative AI Foundation<br/>2021"]:::org
+    end
+
+    %% ========= FOR-PROFIT LABS (EA-FOUNDED) =========
+    subgraph LABS [For-Profit Labs - EA-Founded]
+        ANTHROPIC["Anthropic<br/>Amodei siblings ex-OpenAI<br/>2021"]:::forprofit
+    end
+
+    %% ========= HISTORICAL / CLOSED =========
+    subgraph HISTORICAL [Closed / Historical]
+        FHI["FHI Oxford<br/>Nick Bostrom<br/>CLOSED April 2024"]:::closed
+        CSER["CSER Cambridge<br/>still active"]:::academic
+    end
+
+    %% ========= FUNDING EDGES =========
+
+    %% Open Philanthropy (primary funder for most large alignment orgs)
+    OP ==> MIRI
+    OP ==> REDWOOD
+    OP ==> ARC
+    OP ==> METR
+    OP ==> APOLLO
+    OP ==> FARAI
+    OP ==> CHAI
+    OP ==> CAIS
+    OP ==> ANTHROPIC
+    OP ==> MATS
+    OP ==> BLUEDOT
+    OP ==> CONST
+    OP ==> LIGHTCONE
+    OP ==> GOVAI
+    OP ==> CSET
+    OP ==> CLTR
+    OP ==> HORIZON
+    OP ==> IAPS
+    OP ==> FLI
+
+    %% SFF (Tallinn-backed, AI-safety heavy)
+    SFF ==> MIRI
+    SFF ==> LIGHTCONE
+    SFF ==> FARAI
+    SFF ==> APOLLO
+    SFF ==> AIIMPACTS
+    SFF ==> CONJECTURE
+    SFF ==> AISAFETYCAMP
+    SFF ==> MATS
+    SFF ==> ARC
+    SFF ==> CHAI
+    SFF ==> COOP
+    SFF ==> BLUEDOT
+    SFF ==> FLI
+    SFF ==> GOVAI
+    SFF ==> CAIP
+    SFF ==> SIMON
+
+    %% Personal Tallinn beyond SFF
+    TALLINN -.-> MIRI
+    TALLINN -.-> LIGHTCONE
+    TALLINN -.-> FLI
+
+    %% LTFF (smaller grants)
+    LTFF -.-> MIRI
+    LTFF -.-> APOLLO
+    LTFF -.-> MATS
+    LTFF -.-> AISAFETYCAMP
+    LTFF -.-> AIIMPACTS
+    LTFF -.-> CAIP
+
+    %% FTX (defunct, historical)
+    FTX -.-> ANTHROPIC
+    FTX -.-> LIGHTCONE
+    FTX -.-> ARC
+    FTX -.-> FLI
+
+    %% Longview
+    LV ==> GOVAI
+    LV ==> CLTR
+    LV ==> BLUEDOT
+
+    %% Macroscopic
+    MACRO -.-> MATS
+    MACRO -.-> APOLLO
+
+    %% Schmidt Futures (adjacent, smaller)
+    SCHMIDT -.-> CSET
+
+    %% Buterin
+    BUTERIN -.-> FLI
+
+    %% ========= ORG GENEALOGY (spinouts) =========
+    ARC -.spinout.-> METR
+    SERIMATS -.evolved into.-> MATS
+    MIRI -.early staff.-> ARC
+    OUGHT -.pivoted from.-> APOLLO
+
+    %% Anthropic founders left OpenAI
+    %% (visualized as note)
+    ANTHROPIC -.- NOTE1[Founders left OpenAI 2021<br/>over safety disagreements]:::note
+
+    %% ========= STYLES =========
+    classDef funder fill:#1e40af,color:#fff,stroke:#1e3a8a,stroke-width:2px;
+    classDef defunct fill:#6b7280,color:#fff,stroke:#374151,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef adjacent fill:#92400e,color:#fff,stroke:#78350f,stroke-width:2px;
+    classDef org fill:#0891b2,color:#fff,stroke:#0e7490;
+    classDef academic fill:#15803d,color:#fff,stroke:#166534;
+    classDef forprofit fill:#dc2626,color:#fff,stroke:#991b1b,stroke-width:2px;
+    classDef closed fill:#9ca3af,color:#fff,stroke:#6b7280,stroke-dasharray: 5 5;
+    classDef historical fill:#9ca3af,color:#fff,stroke:#6b7280,stroke-dasharray: 5 5;
+    classDef note fill:#fef3c7,color:#78350f,stroke:#d97706;
+
+    linkStyle default stroke:#94a3b8

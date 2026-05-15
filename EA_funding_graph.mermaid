@@ -1,0 +1,266 @@
+%% EA Funding Network — Cross-funding edges
+%% Shows where multiple funders back the same recipient (the mindmap couldn't represent this).
+%% Knowledge cutoff: May 2025. Render at https://mermaid.live.
+%% Edge styles: solid = primary funder; dashed = secondary / smaller grants; dotted = defunct/historical.
+
+graph LR
+    %% ========= FUNDERS =========
+    OP["Open Philanthropy<br/>(Moskovitz / Tuna)"]:::funder
+    SFF["Survival & Flourishing Fund<br/>(Jaan Tallinn)"]:::funder
+    LTFF["EA Funds: LTFF"]:::funder
+    EAIF["EA Funds: EAIF"]:::funder
+    AWF["EA Funds: Animal Welfare"]:::funder
+    GHDF["EA Funds: Global Health"]:::funder
+    FTX["FTX Future Fund<br/>(defunct 2022)"]:::defunct
+    LV["Longview Philanthropy"]:::funder
+    GW["GiveWell"]:::funder
+    FP["Founders Pledge"]:::funder
+    EV["Effective Ventures<br/>(fiscal sponsor)"]:::sponsor
+    TALLINN["Jaan Tallinn<br/>(personal)"]:::funder
+    BUTERIN["Vitalik Buterin"]:::funder
+    MACRO["Macroscopic Ventures"]:::funder
+    ASTERA["Astera Institute<br/>(McCaleb)"]:::funder
+    SCHMIDT["Schmidt Futures / Sciences"]:::adjacent
+    AIM["Charity Entrepreneurship / AIM"]:::funder
+
+    %% ========= AI SAFETY =========
+    subgraph AI_SAFETY [AI Safety & Alignment]
+        MIRI[MIRI]
+        REDWOOD[Redwood Research]
+        ARC[ARC - Alignment Research Center]
+        METR[METR - ARC Evals spinout]
+        CAIS[Center for AI Safety]
+        ANTHROPIC[Anthropic - for-profit]:::forprofit
+        APOLLO[Apollo Research]
+        FARAI[FAR AI]
+        CHAI[CHAI - UC Berkeley]
+        GOVAI[GovAI]
+        MATS[MATS Program]
+        BLUEDOT[BlueDot Impact]
+        CONST[Constellation]
+        LIGHTCONE[Lightcone Infrastructure]
+        AISAFETYCAMP[AI Safety Camp]
+        AIIMPACTS[AI Impacts]
+        CONJECTURE[Conjecture]
+        CAIP[Center for AI Policy]
+        IAPS[IAPS]
+        HORIZON[Horizon Institute for Public Service]
+        FLI[Future of Life Institute]
+        ALLFED[ALLFED]
+        COOP[Cooperative AI Foundation]
+        FORETHOUGHT[Forethought Foundation/Research]
+    end
+
+    %% ========= BIOSECURITY =========
+    subgraph BIO [Biosecurity]
+        NTI[NTI Bio Program]
+        JHUCHS[JHU Center for Health Security]
+        SECUREBIO[SecureBio]
+        BLUEPRINT[Blueprint Biosecurity]
+        CSR[Council on Strategic Risks]
+        SENTINEL[Sentinel Bio]
+        ONEDAY[1Day Sooner]
+        HELENA[Helena Biosciences]
+    end
+
+    %% ========= GLOBAL HEALTH =========
+    subgraph GH [Global Health & Development]
+        AMF[Against Malaria Foundation]
+        MC[Malaria Consortium]
+        HKI[Helen Keller International]
+        NEWINC[New Incentives]
+        EVACTION[Evidence Action]
+        GIVEDIR[GiveDirectly]
+        FEM[Family Empowerment Media]
+        IDI[IDinsight]
+    end
+
+    %% ========= ANIMAL WELFARE =========
+    subgraph ANIMAL [Animal Welfare]
+        THL[The Humane League]
+        MFA[Mercy For Animals]
+        GFI[Good Food Institute]
+        WAI[Wild Animal Initiative]
+        ACE[Animal Charity Evaluators]
+        CIWF[Compassion in World Farming]
+        FWI[Fish Welfare Initiative]
+        SINERGIA[Sinergia Animal]
+        FAUN[Faunalytics]
+    end
+
+    %% ========= META / MOVEMENT =========
+    subgraph META [Movement Building & Meta]
+        CEA[Centre for Effective Altruism]
+        EIGHTYK[80,000 Hours]
+        GWWC[Giving What We Can]
+        RP[Rethink Priorities]
+        GPI[GPI - Oxford]
+        HLI[Happier Lives Institute]
+        PROBABLY[Probably Good]
+    end
+
+    %% ========= POLICY =========
+    subgraph POLICY [Policy & Governance]
+        CSET[CSET - Georgetown]
+        CLTR[CLTR - UK]
+        CSER[CSER - Cambridge]
+        SIMON[Simon Institute Longterm Gov]
+    end
+
+    %% ========= FUNDER -> RECIPIENT EDGES =========
+
+    %% Open Philanthropy (primary funder for most large orgs)
+    OP ==> MIRI
+    OP ==> REDWOOD
+    OP ==> ARC
+    OP ==> METR
+    OP ==> CAIS
+    OP ==> ANTHROPIC
+    OP ==> APOLLO
+    OP ==> FARAI
+    OP ==> CHAI
+    OP ==> GOVAI
+    OP ==> MATS
+    OP ==> BLUEDOT
+    OP ==> CONST
+    OP ==> LIGHTCONE
+    OP ==> HORIZON
+    OP ==> IAPS
+    OP ==> FLI
+    OP ==> NTI
+    OP ==> JHUCHS
+    OP ==> SECUREBIO
+    OP ==> BLUEPRINT
+    OP ==> CSR
+    OP ==> ONEDAY
+    OP ==> EVACTION
+    OP ==> HKI
+    OP ==> NEWINC
+    OP ==> FEM
+    OP ==> IDI
+    OP ==> THL
+    OP ==> MFA
+    OP ==> GFI
+    OP ==> WAI
+    OP ==> ACE
+    OP ==> CIWF
+    OP ==> CEA
+    OP ==> EIGHTYK
+    OP ==> GWWC
+    OP ==> RP
+    OP ==> GPI
+    OP ==> CSET
+    OP ==> CLTR
+    OP ==> CSER
+    OP ==> AIM
+
+    %% SFF / Tallinn — AI safety heavy
+    SFF ==> MIRI
+    SFF ==> LIGHTCONE
+    SFF ==> FARAI
+    SFF ==> APOLLO
+    SFF ==> AIIMPACTS
+    SFF ==> CONJECTURE
+    SFF ==> AISAFETYCAMP
+    SFF ==> MATS
+    SFF ==> ARC
+    SFF ==> CHAI
+    SFF ==> COOP
+    SFF ==> BLUEDOT
+    SFF ==> FLI
+    SFF ==> FORETHOUGHT
+    SFF ==> GOVAI
+    SFF ==> ALLFED
+    SFF ==> RP
+    SFF ==> CAIP
+    SFF ==> SIMON
+    TALLINN -.-> MIRI
+    TALLINN -.-> LIGHTCONE
+
+    %% EA Funds sub-funds
+    LTFF -.-> MIRI
+    LTFF -.-> APOLLO
+    LTFF -.-> MATS
+    LTFF -.-> AISAFETYCAMP
+    LTFF -.-> AIIMPACTS
+    LTFF -.-> CAIP
+    EAIF -.-> CEA
+    EAIF -.-> EIGHTYK
+    EAIF -.-> PROBABLY
+    EAIF -.-> GWWC
+    AWF -.-> THL
+    AWF -.-> MFA
+    AWF -.-> WAI
+    AWF -.-> SINERGIA
+    AWF -.-> FWI
+    AWF -.-> FAUN
+    GHDF -.-> NEWINC
+    GHDF -.-> FEM
+
+    %% FTX Future Fund (defunct, historical)
+    FTX -.-> ANTHROPIC
+    FTX -.-> LIGHTCONE
+    FTX -.-> ARC
+    FTX -.-> ALLFED
+    FTX -.-> FLI
+    FTX -.-> HELENA
+    FTX -.-> SECUREBIO
+
+    %% Longview
+    LV ==> SECUREBIO
+    LV ==> NTI
+    LV ==> CLTR
+    LV ==> GOVAI
+    LV ==> BLUEDOT
+    LV ==> CSR
+
+    %% GiveWell (channels individual donors)
+    GW ==> AMF
+    GW ==> MC
+    GW ==> HKI
+    GW ==> NEWINC
+    GW ==> EVACTION
+    GW -.-> GIVEDIR
+    GW -.-> IDI
+
+    %% Founders Pledge
+    FP ==> GIVEDIR
+    FP ==> AMF
+    FP -.-> AIM
+    FP -.-> FORETHOUGHT
+
+    %% Effective Ventures (fiscal sponsor — hosts, not pure funder)
+    EV -.-> CEA
+    EV -.-> EIGHTYK
+    EV -.-> GWWC
+    EV -.-> GOVAI
+    EV -.-> BLUEDOT
+    EV -.-> FORETHOUGHT
+    EV -.-> LV
+
+    %% Schmidt Futures (EA-adjacent)
+    SCHMIDT -.-> CSET
+    SCHMIDT -.-> RP
+
+    %% Macroscopic
+    MACRO -.-> MATS
+    MACRO -.-> APOLLO
+    MACRO -.-> SECUREBIO
+
+    %% Buterin
+    BUTERIN -.-> FLI
+    BUTERIN -.-> SENTINEL
+
+    %% AIM as incubator-funder
+    AIM -.-> FEM
+    AIM -.-> FWI
+    AIM -.-> SINERGIA
+
+    %% ========= STYLES =========
+    classDef funder fill:#1e40af,color:#fff,stroke:#1e3a8a,stroke-width:2px;
+    classDef defunct fill:#6b7280,color:#fff,stroke:#374151,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef sponsor fill:#7c3aed,color:#fff,stroke:#5b21b6,stroke-width:2px;
+    classDef adjacent fill:#92400e,color:#fff,stroke:#78350f,stroke-width:2px;
+    classDef forprofit fill:#dc2626,color:#fff,stroke:#991b1b,stroke-width:2px;
+
+    linkStyle default stroke:#94a3b8
